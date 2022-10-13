@@ -42,7 +42,7 @@ const Projects = () => (
 							alt="project image"
 						/>
 						<TitleContent>
-							<HeaderThree title>{title}</HeaderThree>
+							<HeaderThree title="true">{title}</HeaderThree>
 							<Hr />
 						</TitleContent>
 						<CardInfo>{description}</CardInfo>

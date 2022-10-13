@@ -38,10 +38,10 @@ const Technologies = () => (
 				<DiFirebase size="3rem" />
 
 				<ListContainer>
-					<ListTitle>Front-End</ListTitle>
+					<ListTitle>Back-End</ListTitle>
 					<ListParagraph>
 						Experience with <br />
-						React.js Redux and Redux Toolkit
+						Node js and expres s with mongodb and mysql
 					</ListParagraph>
 				</ListContainer>
 			</ListItem>
@@ -49,10 +49,10 @@ const Technologies = () => (
 				<DiFirebase size="3rem" />
 
 				<ListContainer>
-					<ListTitle>Front-End</ListTitle>
+					<ListTitle>DevOps</ListTitle>
 					<ListParagraph>
 						Experience with <br />
-						React.js Redux and Redux Toolkit
+						Docker and Kubernetes
 					</ListParagraph>
 				</ListContainer>
 			</ListItem>
