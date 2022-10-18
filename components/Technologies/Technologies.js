@@ -19,8 +19,8 @@ const Technologies = () => (
 		<SectionDivider />
 		<SectionTitle>Technologies</SectionTitle>
 		<SectionText>
-			I've worked with a range of technologies in the web development world.
-			From Back-end To Design
+			I &apos; ve worked with a range of technologies in the web development
+			world. From Back-end To Design
 		</SectionText>
 		<List>
 			<ListItem>
@@ -41,7 +41,7 @@ const Technologies = () => (
 					<ListTitle>Back-End</ListTitle>
 					<ListParagraph>
 						Experience with <br />
-						Node js and expres s with mongodb and mysql
+						Node js and Express s with mongodb and mysql
 					</ListParagraph>
 				</ListContainer>
 			</ListItem>

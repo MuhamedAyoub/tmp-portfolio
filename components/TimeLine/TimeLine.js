@@ -31,12 +31,12 @@ const Timeline = () => {
 
 	const ClickHandler = (e, i) => {
 		e.preventDefault();
-
+		console.log('Click hander was clickd ');
 		if (carouselRef.current) {
 			const scrollLeft = Math.floor(
 				carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length)
 			);
-
+			console.log('react ref test ', carouselRef);
 			scroll(carouselRef.current, scrollLeft);
 		}
 	};
@@ -88,8 +88,8 @@ const Timeline = () => {
 										fill="none"
 										xmlns="https://www.w3.org/2000/svg">
 										<path
-											fill-rule="evenodd"
-											clip-rule="evenodd"
+											fillRule="evenodd"
+											clipRule="evenodd"
 											d="M2.5 5.5C3.8871 5.5.5 4.38871 5 3V3"
 											fill="url(#paint_linear)"
 											fillOpacity="0.33"
@@ -101,12 +101,12 @@ const Timeline = () => {
 												y1="0.5"
 												x2="200"
 												y2="0.500295"
-												gradientUnits="userSpaceOneUSer">
+												gradientUnits="userSpaceOnUse">
 												<stop stopColor="white" />
 												<stop
 													offset="0.79478"
-													stop-color="white"
-													stop-opacity="0"
+													stopColor="white"
+													stopOpacity="0"
 												/>
 											</linearGradient>
 										</defs>
